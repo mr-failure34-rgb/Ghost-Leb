@@ -1,0 +1,41 @@
+# UNIQUE COMMANDS (No Duplicates) - Bug Hunter Tools
+# ==========================================
+
+# Debugger & Reverse Engineering
+gdb           # GNU Debugger
+r2            # Radare2 (reverse engineering)
+jdb           # Java Debugger (openjdk)
+
+# Network & Scanning
+nmap          # Network mapper
+nc            # Netcat
+httping       # ICMP/HTTP ping
+hping         # ICMP ping
+wg            # Wireguard
+
+# Download & File Transfer
+wget          # Download files
+w3m           # Web browser
+
+# System Tools
+sed           # Stream editor
+vim           # Vim editor
+neovim        # Neovim editor
+ex            # Vim ex mode
+
+# Development Tools
+git           # Git version control
+hub           # GitHub CLI
+python        # Python scripting
+python3       # Python 3
+jq            # JSON processor
+jo            # JSON creator
+
+# Archive & Compression
+7z            # P7zip
+pv            # Pipe viewer
+
+# Utilities
+rem           # Remind calendar
+tc            # Terminal colors
+

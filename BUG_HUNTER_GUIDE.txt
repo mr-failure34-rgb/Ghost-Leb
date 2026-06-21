@@ -1,0 +1,59 @@
+==========================================
+  BUG HUNTER QUICK START GUIDE For Termux
+  (Android)
+==========================================
+
+ESSENTIAL COMMANDS:
+-------------------
+
+1. DEBUGGING:
+   gdb <binary>              # Start debugger
+   gdb -p <pid>              # Attach to process
+   r2 <file>                 # Radare2 reverse engineering
+   r2 -A <file>              # Radare2 analyze
+
+2. NETWORK SCANNING:
+   nmap <target>             # Basic scan
+   nmap -sV -sC <target>     # Version + script scan
+   nmap -p 1-65535 <target>  # Full port scan
+   nc -lvp 1234              # Netcat listener
+   nc -nv <target> 1234      # Netcat connect
+
+3. DOWNLOAD:
+   wget <url>                # Download file
+   wget -r <url>             # Mirror website
+   wget -O file <url>        # Save as specific name
+
+4. EDITING:
+   vim <file>                # Open vim
+   neovim <file>             # Open neovim
+
+5. DEVELOPMENT:
+   git clone <repo>          # Clone repository
+   git push                  # Push changes
+   git pull                  # Pull changes
+   jq <file>                 # Parse JSON
+   python <script>           # Run Python
+
+6. SECURITY TOOLS:
+   sqlmap -u <url>           # SQL injection
+   nikto -h <target>         # Web scanner
+   hydra -l user -p pass <target>  # Password crack
+
+ALIAS COMMANDS:
+---------------
+bh-debug    - GDB debugger
+bh-scan     - Network scan
+bh-reverse  - Radare2 reverse
+bh-download - Wget download
+
+FILE LOCATIONS:
+---------------
+Commands:  $HOME/bughunter_unique_commands.txt
+Aliases:   $HOME/.bughunter.sh
+Guide:     $HOME/BUG_HUNTER_GUIDE.txt
+
+==========================================
+  Happy Bug Hunting! 🎯
+==========================================
+
